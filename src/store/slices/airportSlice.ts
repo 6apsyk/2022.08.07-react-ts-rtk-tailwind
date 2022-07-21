@@ -13,7 +13,7 @@ const initialState: IAirportState = {
     airports: []
 }
 
-const airportSlice = createSlice({
+export const airportSlice = createSlice({
     name: 'airport',
-    
+
 })
