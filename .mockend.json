@@ -3,9 +3,6 @@
         "name": { 
             "string": {}
          },
-         "ident": {
-            "int": { "min": 0, "max": 1000000 }
-         },
 
         "comments": {
           "hasMany": "Comment"
