@@ -1,7 +1,12 @@
 import React from "react";
+import { IAirport } from "../models/models";
 
-function AirportCard() {
-    return <div>AirportCard</div>;
+interface IAirportCardProps {
+    airport: IAirport;
+}
+
+function AirportCard({ airport }: IAirportCardProps) {
+    return <div>{airport.name}</div>;
 }
 
 export default AirportCard;

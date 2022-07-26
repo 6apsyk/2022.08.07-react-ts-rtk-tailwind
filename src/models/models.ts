@@ -5,8 +5,4 @@ export interface IAirport {
     region: string
     type: string
     country: string
-} 
-
-export interface IServerResponse {
-    
 }
