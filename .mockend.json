@@ -4,7 +4,7 @@
             "string": {}
          },
          "ident": {
-            "number": {}
+            "int": { "min": 0, "max": 1000000 }
          },
 
         "comments": {
