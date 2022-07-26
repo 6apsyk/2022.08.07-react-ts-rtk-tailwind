@@ -1,4 +1,8 @@
 export interface IAirport {
-    id: number,
+    id: number
     name: string
+    ident: string
+    region: string
+    type: string
+    country: string
 } 
