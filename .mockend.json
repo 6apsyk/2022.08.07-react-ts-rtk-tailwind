@@ -1,6 +1,12 @@
 {
-    "Post": {
-        "title": { "string": {} },
+    "Airports": {
+        "name": { 
+            "string": {}
+         },
+         "ident": {
+            "number": {}
+         },
+
         "comments": {
           "hasMany": "Comment"
         }
