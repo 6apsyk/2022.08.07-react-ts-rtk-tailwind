@@ -6,3 +6,7 @@ export interface IAirport {
     type: string
     country: string
 } 
+
+export interface IServerResponse {
+    
+}
